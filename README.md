@@ -40,19 +40,19 @@ EmbedPaginator.createPaginationEmbed(message, embeds, options);
     - **Boolean** `options.cleanUp` - Whether to auto remove reactions in at end or not.
         - Optional: **Yes**
         - Default: **False**
-    - **String** `options.firstButton` - Emoji used as the first page button. **Must be Unicode!**
+    - **String** `options.firstButton` - Emoji used as the first page button.
         - Optional: **Yes**
         - Default: **⏮**
-    - **String** `options.backButton` - Emoji used as the back button. **Must be Unicode!**
+    - **String** `options.backButton` - Emoji used as the back button.
         - Optional: **Yes**
         - Default: **⬅**
-    - **String** `options.forthButton` - Emoji used as the forth button. **Must be Unicode!**
+    - **String** `options.forthButton` - Emoji used as the forth button.
         - Optional: **Yes**
         - Default: **➡**
-    - **String** `options.lastButton` - Emoji used as the last page button. **Must be Unicode!**
+    - **String** `options.lastButton` - Emoji used as the last page button.
         - Optional: **Yes**
         - Default: **⏭**
-    - **String** `options.deleteButton` - Emoji used as the delete button. **Must be Unicode!**
+    - **String** `options.deleteButton` - Emoji used as the delete button.
         - Optional: **Yes**
         - Default: **🗑**
 
