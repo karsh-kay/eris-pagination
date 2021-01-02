@@ -28,6 +28,8 @@ declare module 'eris-pagination' {
     forthButton?: string;
     /** Which page of the submitted embed array should be shown first. Defaults to: 1 (The 1st page / element in the array) */
     startPage?: number;
+    /** Whether to auto remove reactions in at end or not. Defaults to: false */
+    cleanUp?: boolean;
   }
 
   /**
