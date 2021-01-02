@@ -37,6 +37,9 @@ EmbedPaginator.createPaginationEmbed(message, embeds, options);
         - Optional: **Yes**
         - Default: **300000** *(5 minutes)*
         - Maximum: **900000** *(15 minutes)*
+    - **Boolean** `options.cleanUp` - Whether to auto remove reactions in at end or not.
+        - Optional: **Yes**
+        - Default: **False**
     - **String** `options.firstButton` - Emoji used as the first page button. **Must be Unicode!**
         - Optional: **Yes**
         - Default: **⏮**
@@ -118,7 +121,8 @@ bot.on('messageCreate', async (message) => {
                 backButton: '◀',
                 forthButton: '▶',
                 deleteButton: '💩',
-                startPage: 2
+                startPage: 2,
+                cleanUp: true
             }
         );
         /* paginatedEmbed ⇨ Eris.Message */
